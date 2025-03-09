@@ -1,0 +1,26 @@
+# ninja log v5
+135	260	7591439770772434	CMakeFiles/NUCLEOTest.dir/startup_stm32f767xx.s.obj	b93c7beace418fd9
+120	317	7591439771353900	CMakeFiles/NUCLEOTest.dir/Core/Src/sysmem.c.obj	377456fcf9525b4b
+47	314	7591439771328854	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.obj	7796d0e0d28f66cf
+78	319	7591439771363924	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.obj	32141df02358d4f6
+106	397	7591439772190536	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.obj	a05c2e88d93e90f0
+85	327	7591439771443949	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dac.c.obj	9935733d73348a08
+53	361	7591439771673991	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.obj	43ca3179902e27c3
+113	345	7591439771603983	CMakeFiles/NUCLEOTest.dir/Core/Src/system_stm32f7xx.c.obj	c2af45bdf1c334b3
+92	350	7591439771643991	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_i2c.c.obj	437a80c1e35760ce
+16	194	7596660417743240	CMakeFiles/NUCLEOTest.dir/Core/Src/dac.c.obj	8b14fdd14e064b1d
+59	348	7591439771653992	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.obj	625d43dd3474264f
+34	222	7596660418033315	CMakeFiles/NUCLEOTest.dir/Core/Src/stm32f7xx_it.c.obj	e1b206efe483151
+9	195	7596660417743240	CMakeFiles/NUCLEOTest.dir/Core/Src/gpio.c.obj	2b479eb03d58c436
+5	221	7596660418033315	CMakeFiles/NUCLEOTest.dir/Core/Src/main.c.obj	9db9c8e2481378f0
+22	222	7596660418033315	CMakeFiles/NUCLEOTest.dir/Core/Src/spi.c.obj	95f0de2fdeaafeba
+19	203	7596660417853266	CMakeFiles/NUCLEOTest.dir/Core/Src/i2c.c.obj	c8c41a0747fee4b8
+65	530	7591439773503286	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.obj	c681009ad9417ec
+30	206	7596660417893271	CMakeFiles/NUCLEOTest.dir/Core/Src/usart.c.obj	ae974cadc986f24f
+12	204	7596660417853266	CMakeFiles/NUCLEOTest.dir/Core/Src/adc.c.obj	56685eb18b352112
+71	386	7591439772040502	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.obj	6a9998a1ca1f4f0e
+99	396	7591439772160541	CMakeFiles/NUCLEOTest.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_spi.c.obj	45559f16746f7667
+128	418	7591439772371442	CMakeFiles/NUCLEOTest.dir/Core/Src/syscalls.c.obj	9a4b9363a58a6e5a
+222	360	7596660419310930	NUCLEOTest.elf	5f1cc0bb8abfd943
+3	321	7632500472023937	build.ninja	610382836c26b7f6
+26	213	7596660417963292	CMakeFiles/NUCLEOTest.dir/Core/Src/ltc2620.c.obj	a4373899a610aba3
