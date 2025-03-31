@@ -1,0 +1,42 @@
+\doxysection{ltc2620.\+h}
+\hypertarget{ltc2620_8h_source}{}\label{ltc2620_8h_source}\index{Core/Inc/ltc2620.h@{Core/Inc/ltc2620.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_\_LTC2620\_H\_\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ \_\_LTC2620\_H\_\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{main_8h}{main.h}}"{}}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00006\ \{}
+\DoxyCodeLine{00007\ \ \ \ \ LTC2620\_COMMAND\_WRITE\_N\ \ \ \ \ \ \ \ \ \ \ \ \ =\ 0x0,}
+\DoxyCodeLine{00008\ \ \ \ \ LTC2620\_COMMAND\_UPDATE\_N\ \ \ \ \ \ \ \ \ \ \ \ =\ 0x1,}
+\DoxyCodeLine{00009\ \ \ \ \ LTC2620\_COMMAND\_WRITE\_N\_UPDATE\_ALL\ \ =\ 0x2,}
+\DoxyCodeLine{00010\ \ \ \ \ LTC2620\_COMMAND\_WRITE\_N\_UPDATE\_N\ \ \ \ =\ 0x3,}
+\DoxyCodeLine{00011\ \ \ \ \ LTC2620\_COMMAND\_POWER\_DOWN\_N\ \ \ \ \ \ \ \ =\ 0x4,}
+\DoxyCodeLine{00012\ \ \ \ \ LTC2620\_COMMAND\_NOTHING\ \ \ \ \ \ \ \ \ \ \ \ \ =\ 0xF,}
+\DoxyCodeLine{00013\ \}\ LTC2620\_Command\_t;}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00016\ \{}
+\DoxyCodeLine{00017\ \ \ \ \ LTC2620\_CHANNEL\_A\ \ \ =\ 0x0,}
+\DoxyCodeLine{00018\ \ \ \ \ LTC2620\_CHANNEL\_B\ \ \ =\ 0x1,}
+\DoxyCodeLine{00019\ \ \ \ \ LTC2620\_CHANNEL\_C\ \ \ =\ 0x2,}
+\DoxyCodeLine{00020\ \ \ \ \ LTC2620\_CHANNEL\_D\ \ \ =\ 0x3,}
+\DoxyCodeLine{00021\ \ \ \ \ LTC2620\_CHANNEL\_E\ \ \ =\ 0x4,}
+\DoxyCodeLine{00022\ \ \ \ \ LTC2620\_CHANNEL\_F\ \ \ =\ 0x5,}
+\DoxyCodeLine{00023\ \ \ \ \ LTC2620\_CHANNEL\_G\ \ \ =\ 0x6,}
+\DoxyCodeLine{00024\ \ \ \ \ LTC2620\_CHANNEL\_H\ \ \ =\ 0x7,}
+\DoxyCodeLine{00025\ \ \ \ \ LTC2620\_CHANNEL\_ALL\ =\ 0xF,}
+\DoxyCodeLine{00026\ \}\ LTC2620\_Channel\_t;}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#define\ LTC2620\_VOLTAGE\_REFERENCE\ \ 4.096}}
+\DoxyCodeLine{00029\ \textcolor{preprocessor}{\#define\ LTC2620\_RESOLUTION\ \ \ \ \ \ \ \ \ 12}}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ uint16\_t\ voltCodeConvert(\textcolor{keywordtype}{float}\ volt);}
+\DoxyCodeLine{00032\ \textcolor{keywordtype}{void}\ setVoltage(uint8\_t\ *commandBuffer,\ uint16\_t\ code);}
+\DoxyCodeLine{00033\ \textcolor{keywordtype}{void}\ setCommand(uint8\_t\ *commandBuffer,\ LTC2620\_Command\_t\ command);}
+\DoxyCodeLine{00034\ \textcolor{keywordtype}{void}\ setChannel(uint8\_t\ *commandBuffer,\ LTC2620\_Channel\_t\ channel);}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

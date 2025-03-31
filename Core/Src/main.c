@@ -108,7 +108,13 @@ int main(void)
   /* USER CODE BEGIN 2 */
   LL_SYSTICK_EnableIT();
 
+  /* @param commandBuffer While we try to figure out the command buffer's endiannes, 
+   *                      the best we can do is to try and parse both sides. 
+   *
+   *
+   */
   uint8_t commandBuffer[3];
+  
   float desiredVoltage = 2.0;
   uint16_t desiredVoltageCode = voltCodeConvert(desiredVoltage);
 

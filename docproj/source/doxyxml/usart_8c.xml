@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="usart_8c" kind="file" language="C++">
+    <compoundname>usart.c</compoundname>
+    <includes refid="usart_8h" local="yes">usart.h</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>ltc2620.h</label>
+        <link refid="ltc2620_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>usart.h</label>
+        <link refid="usart_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Core/Src/usart.c</label>
+        <link refid="usart_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stm32f7xx_ll_adc.h</label>
+      </node>
+      <node id="8">
+        <label>stm32f7xx_ll_bus.h</label>
+      </node>
+      <node id="11">
+        <label>stm32f7xx_ll_cortex.h</label>
+      </node>
+      <node id="5">
+        <label>stm32f7xx_ll_dac.h</label>
+      </node>
+      <node id="14">
+        <label>stm32f7xx_ll_dma.h</label>
+      </node>
+      <node id="10">
+        <label>stm32f7xx_ll_exti.h</label>
+      </node>
+      <node id="17">
+        <label>stm32f7xx_ll_gpio.h</label>
+      </node>
+      <node id="6">
+        <label>stm32f7xx_ll_i2c.h</label>
+      </node>
+      <node id="13">
+        <label>stm32f7xx_ll_pwr.h</label>
+      </node>
+      <node id="7">
+        <label>stm32f7xx_ll_rcc.h</label>
+      </node>
+      <node id="15">
+        <label>stm32f7xx_ll_spi.h</label>
+      </node>
+      <node id="9">
+        <label>stm32f7xx_ll_system.h</label>
+      </node>
+      <node id="16">
+        <label>stm32f7xx_ll_usart.h</label>
+      </node>
+      <node id="12">
+        <label>stm32f7xx_ll_utils.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="usart_8c_1a3d04b903a77089f6ce08dd0bf1c81a81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MX_USART3_UART_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>MX_USART3_UART_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>USART3 GPIO Configuration PD8 ------&gt; USART3_TX PD9 ------&gt; USART3_RX</para>
+        </inbodydescription>
+        <location file="Core/Src/usart.c" line="29" column="6" bodyfile="Core/Src/usart.c" bodystart="29" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This file provides code for the configuration of the USART instances. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="attention"><para></para>
+</simplesect>
+Copyright (c) 2025 STMicroelectronics. All rights reserved.</para>
+<para>This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-IS. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Header<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Header<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Includes<sp/>------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="usart_8h" kindref="compound">usart.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USART3<sp/>init<sp/>function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="usart_8c_1a3d04b903a77089f6ce08dd0bf1c81a81" kindref="member">MX_USART3_UART_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>USART3_Init<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>USART3_Init<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>LL_USART_InitTypeDef<sp/>USART_InitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>LL_GPIO_InitTypeDef<sp/>GPIO_InitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>LL_RCC_SetUSARTClockSource(LL_RCC_USART3_CLKSOURCE_PCLK1);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Peripheral<sp/>clock<sp/>enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_USART3);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOD);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>STLK_RX_Pin;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_7;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(STLK_RX_GPIO_Port,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>STLK_TX_Pin;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_7;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(STLK_TX_GPIO_Port,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>USART3_Init<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>USART3_Init<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>USART_InitStruct.BaudRate<sp/>=<sp/>115200;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>USART_InitStruct.DataWidth<sp/>=<sp/>LL_USART_DATAWIDTH_8B;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>USART_InitStruct.StopBits<sp/>=<sp/>LL_USART_STOPBITS_1;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>USART_InitStruct.Parity<sp/>=<sp/>LL_USART_PARITY_NONE;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>USART_InitStruct.TransferDirection<sp/>=<sp/>LL_USART_DIRECTION_TX_RX;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>USART_InitStruct.HardwareFlowControl<sp/>=<sp/>LL_USART_HWCONTROL_NONE;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>USART_InitStruct.OverSampling<sp/>=<sp/>LL_USART_OVERSAMPLING_16;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>LL_USART_Init(USART3,<sp/>&amp;USART_InitStruct);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>LL_USART_ConfigAsyncMode(USART3);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>LL_USART_Enable(USART3);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>USART3_Init<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>USART3_Init<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Core/Src/usart.c"/>
+  </compounddef>
+</doxygen>

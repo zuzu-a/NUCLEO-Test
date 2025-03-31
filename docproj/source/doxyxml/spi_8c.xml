@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="spi_8c" kind="file" language="C++">
+    <compoundname>spi.c</compoundname>
+    <includes refid="spi_8h" local="yes">spi.h</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>ltc2620.h</label>
+        <link refid="ltc2620_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>spi.h</label>
+        <link refid="spi_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Core/Src/spi.c</label>
+        <link refid="spi_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stm32f7xx_ll_adc.h</label>
+      </node>
+      <node id="8">
+        <label>stm32f7xx_ll_bus.h</label>
+      </node>
+      <node id="11">
+        <label>stm32f7xx_ll_cortex.h</label>
+      </node>
+      <node id="5">
+        <label>stm32f7xx_ll_dac.h</label>
+      </node>
+      <node id="14">
+        <label>stm32f7xx_ll_dma.h</label>
+      </node>
+      <node id="10">
+        <label>stm32f7xx_ll_exti.h</label>
+      </node>
+      <node id="17">
+        <label>stm32f7xx_ll_gpio.h</label>
+      </node>
+      <node id="6">
+        <label>stm32f7xx_ll_i2c.h</label>
+      </node>
+      <node id="13">
+        <label>stm32f7xx_ll_pwr.h</label>
+      </node>
+      <node id="7">
+        <label>stm32f7xx_ll_rcc.h</label>
+      </node>
+      <node id="15">
+        <label>stm32f7xx_ll_spi.h</label>
+      </node>
+      <node id="9">
+        <label>stm32f7xx_ll_system.h</label>
+      </node>
+      <node id="16">
+        <label>stm32f7xx_ll_usart.h</label>
+      </node>
+      <node id="12">
+        <label>stm32f7xx_ll_utils.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="spi_8c_1af81398f9775695df0b172367651ca3e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MX_SPI1_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>MX_SPI1_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>SPI1 GPIO Configuration PA5 ------&gt; SPI1_SCK PA6 ------&gt; SPI1_MISO PA7 ------&gt; SPI1_MOSI</para>
+        </inbodydescription>
+        <location file="Core/Src/spi.c" line="28" column="6" bodyfile="Core/Src/spi.c" bodystart="28" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="spi_8c_1a03aff927b2793cac09e443299c6d6e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MX_SPI3_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>MX_SPI3_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>SPI3 GPIO Configuration PB2 ------&gt; SPI3_MOSI PC10 ------&gt; SPI3_SCK PC11 ------&gt; SPI3_MISO</para>
+        </inbodydescription>
+        <location file="Core/Src/spi.c" line="94" column="6" bodyfile="Core/Src/spi.c" bodystart="94" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="spi_8c_1a5ea97db0d8624acd4fc61ff9c5cfcc9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MX_SPI4_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>MX_SPI4_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>SPI4 GPIO Configuration PE2 ------&gt; SPI4_SCK PE6 ------&gt; SPI4_MOSI</para>
+        </inbodydescription>
+        <location file="Core/Src/spi.c" line="160" column="6" bodyfile="Core/Src/spi.c" bodystart="160" bodyend="215"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This file provides code for the configuration of the SPI instances. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="attention"><para></para>
+</simplesect>
+Copyright (c) 2025 STMicroelectronics. All rights reserved.</para>
+<para>This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-IS. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Header<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Header<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Includes<sp/>------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="spi_8h" kindref="compound">spi.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>SPI1<sp/>init<sp/>function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="spi_8c_1af81398f9775695df0b172367651ca3e6" kindref="member">MX_SPI1_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SPI1_Init<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SPI1_Init<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>LL_SPI_InitTypeDef<sp/>SPI_InitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>LL_GPIO_InitTypeDef<sp/>GPIO_InitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Peripheral<sp/>clock<sp/>enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_SPI1);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOA);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>LL_GPIO_PIN_5;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_5;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(GPIOA,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>LL_GPIO_PIN_6;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_5;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(GPIOA,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>LL_GPIO_PIN_7;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_5;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(GPIOA,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SPI1_Init<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SPI1_Init<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>SPI_InitStruct.TransferDirection<sp/>=<sp/>LL_SPI_FULL_DUPLEX;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>SPI_InitStruct.Mode<sp/>=<sp/>LL_SPI_MODE_MASTER;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>SPI_InitStruct.DataWidth<sp/>=<sp/>LL_SPI_DATAWIDTH_8BIT;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>SPI_InitStruct.ClockPolarity<sp/>=<sp/>LL_SPI_POLARITY_LOW;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>SPI_InitStruct.ClockPhase<sp/>=<sp/>LL_SPI_PHASE_1EDGE;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>SPI_InitStruct.NSS<sp/>=<sp/>LL_SPI_NSS_SOFT;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>SPI_InitStruct.BaudRate<sp/>=<sp/>LL_SPI_BAUDRATEPRESCALER_DIV2;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>SPI_InitStruct.BitOrder<sp/>=<sp/>LL_SPI_MSB_FIRST;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>SPI_InitStruct.CRCCalculation<sp/>=<sp/>LL_SPI_CRCCALCULATION_DISABLE;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>SPI_InitStruct.CRCPoly<sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>LL_SPI_Init(SPI1,<sp/>&amp;SPI_InitStruct);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>LL_SPI_SetStandard(SPI1,<sp/>LL_SPI_PROTOCOL_MOTOROLA);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>LL_SPI_EnableNSSPulseMgt(SPI1);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SPI1_Init<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>LL_SPI_Enable(SPI1);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SPI1_Init<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>SPI3<sp/>init<sp/>function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="spi_8c_1a03aff927b2793cac09e443299c6d6e7e" kindref="member">MX_SPI3_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SPI3_Init<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SPI3_Init<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>LL_SPI_InitTypeDef<sp/>SPI_InitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>LL_GPIO_InitTypeDef<sp/>GPIO_InitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Peripheral<sp/>clock<sp/>enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_SPI3);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOB);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOC);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>LL_GPIO_PIN_2;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_7;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(GPIOB,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>LL_GPIO_PIN_10;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_6;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(GPIOC,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>LL_GPIO_PIN_11;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_6;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(GPIOC,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SPI3_Init<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SPI3_Init<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>SPI_InitStruct.TransferDirection<sp/>=<sp/>LL_SPI_FULL_DUPLEX;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/>SPI_InitStruct.Mode<sp/>=<sp/>LL_SPI_MODE_SLAVE;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>SPI_InitStruct.DataWidth<sp/>=<sp/>LL_SPI_DATAWIDTH_4BIT;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>SPI_InitStruct.ClockPolarity<sp/>=<sp/>LL_SPI_POLARITY_LOW;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>SPI_InitStruct.ClockPhase<sp/>=<sp/>LL_SPI_PHASE_1EDGE;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>SPI_InitStruct.NSS<sp/>=<sp/>LL_SPI_NSS_SOFT;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>SPI_InitStruct.BitOrder<sp/>=<sp/>LL_SPI_MSB_FIRST;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>SPI_InitStruct.CRCCalculation<sp/>=<sp/>LL_SPI_CRCCALCULATION_DISABLE;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>SPI_InitStruct.CRCPoly<sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>LL_SPI_Init(SPI3,<sp/>&amp;SPI_InitStruct);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>LL_SPI_SetStandard(SPI3,<sp/>LL_SPI_PROTOCOL_MOTOROLA);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>LL_SPI_DisableNSSPulseMgt(SPI3);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SPI3_Init<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SPI3_Init<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>SPI4<sp/>init<sp/>function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="spi_8c_1a5ea97db0d8624acd4fc61ff9c5cfcc9e" kindref="member">MX_SPI4_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SPI4_Init<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SPI4_Init<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/>LL_SPI_InitTypeDef<sp/>SPI_InitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>LL_GPIO_InitTypeDef<sp/>GPIO_InitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Peripheral<sp/>clock<sp/>enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/>LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_SPI4);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOE);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>LL_GPIO_PIN_2;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_5;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(GPIOE,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pin<sp/>=<sp/>LL_GPIO_PIN_6;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Mode<sp/>=<sp/>LL_GPIO_MODE_ALTERNATE;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Speed<sp/>=<sp/>LL_GPIO_SPEED_FREQ_VERY_HIGH;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.OutputType<sp/>=<sp/>LL_GPIO_OUTPUT_PUSHPULL;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Pull<sp/>=<sp/>LL_GPIO_PULL_NO;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>GPIO_InitStruct.Alternate<sp/>=<sp/>LL_GPIO_AF_5;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>LL_GPIO_Init(GPIOE,<sp/>&amp;GPIO_InitStruct);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SPI4_Init<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SPI4_Init<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>SPI_InitStruct.TransferDirection<sp/>=<sp/>LL_SPI_HALF_DUPLEX_TX;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>SPI_InitStruct.Mode<sp/>=<sp/>LL_SPI_MODE_MASTER;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/>SPI_InitStruct.DataWidth<sp/>=<sp/>LL_SPI_DATAWIDTH_4BIT;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/>SPI_InitStruct.ClockPolarity<sp/>=<sp/>LL_SPI_POLARITY_LOW;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>SPI_InitStruct.ClockPhase<sp/>=<sp/>LL_SPI_PHASE_1EDGE;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/>SPI_InitStruct.NSS<sp/>=<sp/>LL_SPI_NSS_SOFT;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>SPI_InitStruct.BaudRate<sp/>=<sp/>LL_SPI_BAUDRATEPRESCALER_DIV2;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/>SPI_InitStruct.BitOrder<sp/>=<sp/>LL_SPI_MSB_FIRST;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>SPI_InitStruct.CRCCalculation<sp/>=<sp/>LL_SPI_CRCCALCULATION_DISABLE;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/>SPI_InitStruct.CRCPoly<sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>LL_SPI_Init(SPI4,<sp/>&amp;SPI_InitStruct);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/>LL_SPI_SetStandard(SPI4,<sp/>LL_SPI_PROTOCOL_MOTOROLA);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/>LL_SPI_EnableNSSPulseMgt(SPI4);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SPI4_Init<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SPI4_Init<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Core/Src/spi.c"/>
+  </compounddef>
+</doxygen>

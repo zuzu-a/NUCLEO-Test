@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_e2489e887f17afa3cbc07a4ec152cdd2" kind="dir">
+    <compoundname>Core/Inc</compoundname>
+    <innerfile refid="adc_8h">adc.h</innerfile>
+    <innerfile refid="dac_8h">dac.h</innerfile>
+    <innerfile refid="gpio_8h">gpio.h</innerfile>
+    <innerfile refid="i2c_8h">i2c.h</innerfile>
+    <innerfile refid="ltc2620_8h">ltc2620.h</innerfile>
+    <innerfile refid="main_8h">main.h</innerfile>
+    <innerfile refid="spi_8h">spi.h</innerfile>
+    <innerfile refid="stm32__assert_8h">stm32_assert.h</innerfile>
+    <innerfile refid="stm32f7xx__it_8h">stm32f7xx_it.h</innerfile>
+    <innerfile refid="usart_8h">usart.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Core/Inc/"/>
+  </compounddef>
+</doxygen>
